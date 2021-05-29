@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='Website'>
+  <meta property='og:title' content='tf0101 ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content=' tf0101のポートフォリオサイトです！'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content=" tf0101のポートフォリオサイトです！" />
+  <title> tf0101 ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div id="wrapper">
+    <nav id="gnav" class="fixed">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <!--<li><a href="#feature">FEATURE</a></li>-->
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!--
+    <header id="header">
+      <div class="inner">
+        <h1 class="logo">
+          <div class="logo-title">tf0101</div>
+          <div class="logo-desc">PORTFOLIO</div>
+        </h1>
+      </div>
+    </header>
+    -->
+    <main id="contents">
+
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">ABOUT</h2>
+            <div class="section-intro">
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="section-image">
+              <img class="lazyload fadein" data-src="img/about/sabo.jpg" alt="">
+            </div>
+            <div class="section-desc">
+              <div class="section-text">
+                氏名：tf0101<br>
+                生年月日：1993/01/01<br>
+                学歴：立命館大学情報理工学部卒（2019/03）<br>
+                趣味：プログラミング、サービス開発、ツール開発、映画鑑賞、ゲームなど<br>
+                <a href="https://github.com/tf0101" target="_blank">Github</a><br>
+                <a href="https://qiita.com/tf0101" target="_blank">Qiita</a><br>
+                <a href="https://zenn.dev/tf0101" target="_blank">Zenn</a><br>
+                
+                <br>普段から自発的に技術のインプットとアウトプットやWebサービス、パッケージの開発などを行っており、フロントエンド、バックエンド、インフラ、手広く触れているのが私の強みです。
+                <!--<br><br>
+                大学では画像情報処理、音声情報処理、自然言語処理、Web情報処理などのメディアに紐ついたデータの処理や扱いについて学びました。卒業研究ではインターフェースを扱いました。-->
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">WORKS</h2>
+            <div class="section-intro">
+              <div class="section-text">
+                <!--制作物の記録です。<br class="pc">-->
+              </div>
+            </div>
+          </div>
+
+          <div class="section-body card-wrapper my-gallery">
+
+            <div class="card">
+              <a href="img/works/dousetucom.png" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/dousetucom.png" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">同接ランキング.com</div>
+                <div class="card-caption-info"> Vue(Nuxt)/Ruby(Rails)/Go/AWS</div>
+                <div class="card-caption-url"><a class="url-link" href="https://www.dousetu.com/" target="_blank">SiteLink</a></div>
+                <div class="card-caption-text">
+                  開発人数：1人<br>
+                  役割：要件定義/基本・詳細設計/実装/保守運用<br>
+                  サイト概要：過去にYouTubeやTwitchなどの動画サイトで行われた配信の同時接続者数を集計したランキングを掲載するサイトです。<br>
+                  使用技術：データ集計基盤の作成にはGo、フロントはNuxt、APIはRailsで作成、インフラはAWSを用いました。アクセス数の増加に耐えられるようにECSでのスケーリングやキャッシュサーバーを用いたDBへの負荷軽減などを施してあります。
+                </div>
+               </div>
+            </div>
+
+            <div class="card">
+              <a href="img/works/hr-img2-16-12.jpg" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/hr-img2-16-12.jpg" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">YouTubeLiveハイライト自動抽出</div>
+                <div class="card-caption-info"> Vue.js/ Python(Django)/ AWS</div>
+                <div class="card-caption-url"><a class="url-link" href="https://www.highlight-ranking.com/" target="_blank">SiteLink</a></div>
+                <div class="card-caption-url"><a class="url-link" href="https://qiita.com/tf0101/items/c63157435ae1eebeb8bc" target="_blank">Qiita</a></div>
+                <div class="card-caption-text">
+                  開発人数：1人<br>
+                  役割：要件定義/基本・詳細設計/実装/保守運用<br>
+                  サイト概要：YouTubeLive上の過去の生放送(アーカイブ動画)から放送内の盛り上がった箇所を抽出してランキング表示するサービスです。<br>
+                  使用技術：フロントはVue.js(VueCli3)、APIはDjango、インフラはAWSを用いました。アクセスの増加に伴ってyoutubeサーバーにリクエストをブロックされる可能性があるので負荷軽減の為にsquidを用いてプロキシサーバーでのIPの分散や、キャッシュサーバーを用いたDB負荷軽減を施しています。
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <a href="img/works/vue-script-insert.png" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/vue-script-insert.png" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">Vue-script-insert (自作nodeパッケージ)</div>
+                <div class="card-caption-info"> JavaScript/Vue.js</div>
+                <div class="card-caption-url"><a class="url-link" href="https://github.com/tf0101/vue-script-insert" target="_blank">github</a></div>
+                <div class="card-caption-text">
+                  開発人数：1人<br>
+                  パッケージ概要：SPAに広告タグなどの外部jsを動的に読み込めるようにするnodeパッケージ。vue,nuxtで利用可能なvueコンポネートとして作成した。<br>
+                  開発動機：SPAにはscriptタグを動的に埋め込むと動作しないという問題がある。これの何が問題かというと、広告タグなどはscriptタグを埋め込む方式のものが多く、この方式の場合はSPAでは広告が表示されなくなってしまう。これを解決する為に本パッケージを作成した。
+                </div>
+               </div>
+            </div>
+
+            <div class="card">
+              <a href="img/works/videochatget-16-12.jpg" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/videochatget-16-12.jpg" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">VideoChatGet (自作gemパッケージ)</div>
+                <div class="card-caption-info"> Ruby</div>
+                <div class="card-caption-url"><a class="url-link" href="https://github.com/tf0101/VideoChatGet" target="_blank">github</a></div>
+                <div class="card-caption-text">
+                  開発人数：1人<br>
+                  パッケージ概要：複数の配信サイトの動画アーカイブからチャットを取得できるようにしたgemパッケージ、アーカイブURLを入力するだけでその配信のチャットデータが取得できる。<br>
+                  開発動機：ライブ配信の盛り上がり箇所を特定する際にチャットの取得が必要だったので、いくつかの配信サイトからチャットを取得する方法をまとめてパッケージ化した。
+                </div>
+               </div>
+            </div>
+
+            <div class="card">
+              <a href="img/works/dr-img-16-12.jpg" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/dr-img-16-12.jpg" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">DeepLearningを用いた画像分類ツール</div>
+                <div class="card-caption-info">Python / Keras(tensorflow) </div>
+                <div class="card-caption-url"><a class="url-link" href="https://github.com/tf0101/img_autosearch" target="_blank">github</a></div>
+                <div class="card-caption-url"><a class="url-link" href="https://qiita.com/tf0101/items/099fbfce3ad7992e1baa" target="_blank">Qiita</a></div>
+                <div class="card-caption-text">
+                  開発人数：1人<br>
+                  概要：指定したTwitterユーザーが投稿した画像一覧を取得し学習モデルに合致した画像のみを取得する。<br>
+                  開発動機：動機はTwitterから自動で画像収集をする際に不要な画像まで取得してしまう問題を解決するため。<br>
+                  使用技術：学習モデルの作成にはKerasを使用、自作した学習モデルは自身の欲しい画像を正例、不要な画像を負例として既存モデルであるVGG16を用いてファインチューニングを行い作成、ファインチューニングにより少ないデータセットでも9割近い分類精度が出せた。
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <a href="img/works/pylive-img-16-12.jpg" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/pylive-img-16-12.jpg" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">生放送から盛り上がった箇所を自動抽出するCLI</div>
+                <div class="card-caption-info">Python</div>
+                <div class="card-caption-url"><a class="url-link" href="https://qiita.com/tf0101/items/efb2484a0b5b1cdc8291" target="_blank">Qiita</a></div>
+                <div class="card-caption-text">
+                  開発人数：1人<br>
+                  概要：YoutubeLiveのライブ配信のアーカイブから盛り上がった箇所を動画として自動抽出するCLI<br>
+                  開発動機：ネット上のライブ配信は長時間(1~2時間以上)になることが多く複数の配信を追うことは難しい場合が多い、この問題を解決する為に配信の要所だけを抽出して動画として切り出すことで視聴時間の短縮を行なった。
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <a href="img/works/devel-16-12.jpg" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/devel-16-12.jpg" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">画像ビューアアプリ(開発中)</div>
+                <div class="card-caption-info">Android / Kotlin / java</div>
+                <div class="card-caption-url"><a class="url-link" href="https://qiita.com/tf0101/items/9008f5ee12f42bbe54bf" target="_blank">Qiita</a></div>
+                <div class="card-caption-text">
+                  開発人数：１人<br>
+                  概要：画像閲覧アプリ、端末内の画像を一覧表示する。<br>
+                  開発動機：アプリ開発の練習用に作成したのでプロトタイプの段階で開発が止まっている。端末内の画像の検知とサムネイルキャッシュ作成のプログラムを作成した。
+                </div>
+              </div>
+             </div>
+
+           </div>
+        </div>
+      </section>
+<!--
+      <section class="section" id="feature">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">FEATURE</h2>
+            <div class="section-intro">
+              開発したWebサービスの解説
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="section-image">
+              <a href="https://www.highlight-ranking.com/" class="hover-action-01" target="_blank"><img src="img/feature/hr-img3.jpg" alt=""></a>
+            </div>
+            <div class="section-desc">
+              <div class="section-text">
+                <span class="text-bold">サイト名：</span><br>YouTubeLiveハイライト自動抽出 | Highlight-Ranking<br><a href="https://www.highlight-ranking.com/"
+                  target="_blank">https://www.highlight-ranking.com/</a><br><br>
+                <span class="text-bold">使用技術：</span><br>Vue.js/ Django/ AWS<br>
+                <br>
+                <span class="text-bold">コメント：</span><br>YouTubeLive上の生放送(アーカイブ動画)から放送内の盛り上がった箇所を抽出してランキング表示するWebサービスです。<br>
+                <br>
+                  <a href="img/feature/map-img.jpg" data-size="960x720" target="_blank">
+                    <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/feature/map-img.jpg" alt="" />
+                  </a>
+                <br>
+                本サービスは生放送のLiveチャットを解析することでランキングを生成しています。流れとしては、放送URLをリクエストとして受け取りURLのページにスクレイピングを行いLiveチャットを取得し、
+                独自のアルゴリズム(下図)を用いることで生放送中の盛り上がった箇所ベスト10を抽出し、それらランキングデータをレスポンスとして返しています。上の画像はリクエストとレスポンスの概要図です。
+                また、Liveチャットの量が多いと処理が重くなる場合があるので自動定期バッチ処理を行いランキングデータのキャッシュを生成することでユーザーへのレスポンスの高速化を行いました。
+                使用技術など詳細については<a class="url-link" href="https://qiita.com/tf0101/items/c63157435ae1eebeb8bc" target="_blank">こちらの記事</a>にまとめています。
+                <br><br>
+                <a href="img/feature/flow_2.jpg" data-size="960x720" target="_blank">
+                  <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/feature/flow_2.jpg" alt="" />
+                </a>
+                <br>上の図は独自に作成したアルゴリズムの概要です。前処置→スポット化→クラスター化→ピーク検出を行なっています。盛り上がり箇所(以下ピークと呼ぶ)を抽出する上で既存のパッケージ(scipy)ではノイズまで抽出してしまうという問題がありました。
+                そこで、ノイズの影響を緩和するためにクラスター化を行いピークの検出をしました。このクラスター化を行ったことでピークの切り抜き精度を向上させることができました。
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    -->
+
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">SKILL</h2>
+            <div class="section-intro">
+              エディタはVSCodeを愛用、サーバー内ではvim<br>
+              プロジェクト管理にはgit、開発環境管理にはDockerを使います。
+              <br><br>
+              星1：チュートリアルなどで触れたことがある<br>
+              星2：ドキュメントを見ながら何かしらのコードを書いた経験がある<br>
+              星3：実際に開発に使用して成果物を作成した経験がある<br>
+              星4：パッケージの開発などを行なっておりコードを公開している<br>
+              星5：有名OSSにコミット経験がある、<br><br>
+            　　実際に開発で使用経験のあるスキルのみを載せています（星3以上）
+            </div>
+          </div>
+
+        <div class="section-body card-wrapper">
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_html.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">HTML5/CSS3</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  レスポンシブを含め、基本的なコーディングは可能</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_js.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">JavaScript</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  ライブラリの実装やjQueryやCSRF対策など基本的なことは可能、自作nodeパッケージ開発経験有り</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/vue-js.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Vue.js</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  SPA開発経験有り、VueCLI3
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/nuxtjs_icon.PNG" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Nuxt.js</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  SPA開発経験有り
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/ruby.png" alt="">
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">Ruby</h3>
+                  <div class="rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <div class="section-text">
+                     自作gemパッケージの開発経験有り
+                  </div>
+                </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/rails_icon.PNG" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Ruby on Rails</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  webサービスのAPI開発経験有り
+                </div>
+              </div>
+            </div> 
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/python.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Python</h3>
+                <div class="rating">
+                  <div class="rate rate4"></div>
+                </div>
+                <div class="section-text">
+                  スクレイピングを行ったり、Django等のWebフレームワークやkerasなどのDeep learningライブラリも使用します。また、PyPlに自作したパッケージを公開していたこともあります。
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/django.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Django</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  webサービスのAPI開発経験有り
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/c.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">C/C++</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                主に大学の実験や研究や競プロをかじっていたときなどに使用
+                </div>
+             </div>
+           </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/java.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">java</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  Android Studioでスマホアプリ開発時に使用
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/kotlin.jpg" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Kotlin</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  Android Studioでスマホアプリ開発時に使用
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/golang_icon.PNG" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Golang</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  webサイトのコンテンツ用データの集計基盤開発時に使用
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/mysql.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">RDB(MySQL,SQLite)</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  基本的なSQL文は書けます。また、インデックスや正規化(第3正規化まで)などの基本的な仕組みは理解しています。
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/aws3.jpg" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">AWS</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  Webサービスのインフラ構築時(ALB,Route53,CloudFrontm,ECS,ECRなど)やDeep learningの際にGPUが必要な場面で使用しています。サーバーOSは基本的にLinuxでディストリビューションはAmazon Linuxを使います。
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/memcached_icon.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Memcached</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  キャッシュサーバーとして使用経験有り
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/rundeck_icon.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Rundeck</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  データ集計基盤のスケジューラーとして使用経験あり
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/circleci.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">CircleCI</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  テスト、デプロイの自動化に使用
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/docker.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Docker</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  開発環境管理に使用
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/github.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Github</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  プロジェクト管理に使用、大体のコマンドは使えます。
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="section-intro">
+              
+            </div>
+          </div>
+          <div class="section-body contact-wrapper">
+            <div class="contact-list">
+              <ul>
+                <li><a href="https://github.com/tf0101" target="_blank"><img src="img/contact/github.png" alt=""></a>
+                </li>
+                <li><a href="https://qiita.com/tf0101" target="_blank"><img src="img/contact/qiita.jpg" alt=""></a>
+                </li>
+                <li><a href="https://zenn.dev/tf0101" target="_blank"><img src="img/contact/zenn_icon.png" alt=""></a>
+                </li>
+              </ul>
+              <div class="contact-other">Email : tf0101works@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <footer id="footer">
+      <div class="pageTop">
+        <div id="js-pageTop">
+          Page Top
+        </div>
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;tf0101. All Rights Reserved.</>
+        </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
